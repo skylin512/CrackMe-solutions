@@ -1,0 +1,16 @@
+# C/C++ 代码的格式（包括 markdown 文档里的）
+AccessModifierOffset: -4
+AlignArrayOfStructures: Right
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveMacros: Consecutive
+AllowShortBlocksOnASingleLine: Empty
+AlwaysBreakTemplateDeclarations: Yes
+BasedOnStyle: LLVM
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+IndentRequiresClause: true
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: false
+PackConstructorInitializers: CurrentLine
+SortIncludes: Never
