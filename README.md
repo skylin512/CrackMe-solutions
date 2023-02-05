@@ -2,7 +2,7 @@
 
 记录对各种 CrackMe 的详细分析过程。  
 
-* 适合破解新手的160个crackme练手
+* [适合破解新手的160个crackme练手](52pojie-160CrackMe)
 
 ## 许可证
 
