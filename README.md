@@ -18,4 +18,6 @@ IDA Pro：<https://hex-rays.com/IDA-pro>
 StudyPE+：<https://bbs.kanxue.com/thread-246459.htm>  
 Delphi Decompiler：<https://studiogm.us/delphidecompiler>  
 VB 逆向相关资源：<http://sandsprite.com/vb-reversing>  
-UPX：<https://upx.github.io>
+UPX：<https://upx.github.io>  
+VB Decompiler：<https://www.vb-decompiler.org>  
+VB 5.0 运行时库：<https://download.microsoft.com/download/vb50pro/utility/1/win98/EN-US/Msvbvm50.exe>
