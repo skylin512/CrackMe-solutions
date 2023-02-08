@@ -2,7 +2,7 @@
 
 记录对各种 CrackMe 的详细分析过程。  
 
-* 适合破解新手的160个crackme练手[目录](52pojie-160CrackMe)[发布帖](https://www.52pojie.cn/thread-709699-1-1.html)
+* 适合破解新手的160个crackme练手（[目录](52pojie-160CrackMe)）（[发布帖](https://www.52pojie.cn/thread-709699-1-1.html)）
 
 ## 许可证
 
