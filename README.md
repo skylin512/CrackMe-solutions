@@ -14,7 +14,7 @@
 
 Detect It Easy：<https://github.com/horsicq/DIE-engine>  
 x64dbg：<https://x64dbg.com>  
-IDA Pro：<https://hex-rays.com/products/ida>  
+IDA：<https://hex-rays.com/products/ida>  
 StudyPE+：<https://bbs.kanxue.com/thread-246459.htm>  
 Delphi Decompiler：<https://studiogm.us/delphidecompiler>  
 VB 逆向相关资源：<http://sandsprite.com/vb-reversing>  
