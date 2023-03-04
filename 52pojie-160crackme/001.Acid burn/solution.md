@@ -1,6 +1,6 @@
 # CrackMe 001 - Acid burn
 
-作为“适合破解新手的160个crackme练手”系列的第一个 CrackMe，难度很小，唯一的难点在于关键代码以及函数调用的作用分析，然而这一点可以通过加载 IDA 的签名轻松解决。
+作为“适合破解新手的160个crackme练手”系列的第一个 CrackMe，难度很小，唯一的难点在于关键代码处函数调用的作用分析，然而这一点可以通过加载 IDA 的签名+[x64dbgida](https://github.com/x64dbg/x64dbgida#installation) 插件轻松解决。
 
 ## 分析
 
@@ -20,7 +20,7 @@
 
 ![](images/4.png)
 
-从图中可以看到，Tindex 是启动窗口，并且果不其然有个窗口创建的事件。转到 **Procedures**->**Uint2    Tindex**->**Events**后双击 **FormCreate** 事件后不难看出这里就是弹出弹窗的关键代码。
+从图中可以看到，Tindex 是启动窗口，并且果不其然有个窗口创建的事件。转到 **Procedures**->**Unit2    Tindex**->**Events**后双击 **FormCreate** 事件后不难看出这里就是弹出弹窗的关键代码。
 
 ```asm
 0042F784   6A00                   push    $00
@@ -59,7 +59,11 @@
 
 ![](images/6.png)
 
-将 push 0 修改为 jmp 0x42F79C 并按下回车修改后点击 **Edit**->**Patch Program**->**Apply patches to...** 并将修改保存到文件即可跳过弹窗。
+将 push 0 修改为 jmp 0x42F79C 并按下回车修改后点击 **Edit**->**Patch Program**->**Apply patches to...** 并点击 **Apply patches**将修改保存到文件即可跳过弹窗。
+
+![](images/9.png)
+
+可以点击 **Edit**->**x64dbgida**->**Export x64dbg database** 来导出之前应用的签名来给接下来的 x64dbg 来使用，保存到 x64dbg 目录下的 **x32\db\Acid burn.exe.dd32** 文件即可（如果没有 x64dbgida 插件可以在此处[下载 Acid burn.exe.dd32 文件](misc/Acid burn.exe.dd32)）。
 
 ## Serial/Name 分析
 
